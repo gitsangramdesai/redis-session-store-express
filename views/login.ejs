@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form method="POST" action="/login">
+      <table style="border:1px solid red;background-color:skyblue;color:white;">
+        <tr>
+          <td colspan="2">
+            Login to express demo
+          </td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td>
+            <input type="text" name="username" id="username" required />
+          </td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td>
+            <input type="password" name="password" id="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+              <input type="submit" value="Login" style="background-color:orange" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
